@@ -1,0 +1,40 @@
+{
+  "pacotes": [
+    {
+      "local": "São Paulo",
+      "imagem": "@drawable/brasilia.jpg",
+      "dias": "2  dias",
+      "preco": "R$ 243,99"
+    },
+    {
+      "local": "Belo Horizonte",
+      "imagem": "@drawable/guarulhos.jpg",
+      "dias": "3  dias",
+      "preco": "R$ 421,50"
+    },
+    {
+      "local": "Recife",
+      "imagem": "@drawable/manaus.jpg",
+      "dias": "4  dias",
+      "preco": "R$ 754,20"
+    },
+    {
+      "local": "Rio de Janeiro",
+      "imagem": "@drawable/minasgerais.jpg",
+      "dias": "6  dias",
+      "preco": "R$ 532,55"
+    },
+    {
+      "local": "Salvador",
+      "imagem": "@drawable/portodegalinhas.jpg",
+      "dias": "5   dias",
+      "preco": "R$ 899,99"
+    },
+    {
+      "local": "Foz do Iguaçu",
+      "imagem": "recife.jpg",
+      "dias": "1  dia",
+      "preco": "R$ 289,90"
+    }
+  ]
+}

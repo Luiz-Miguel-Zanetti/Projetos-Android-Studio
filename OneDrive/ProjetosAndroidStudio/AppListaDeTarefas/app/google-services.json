@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "94878193652",
+    "project_id": "teste-lista-de-tarefas-cbab6",
+    "storage_bucket": "teste-lista-de-tarefas-cbab6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94878193652:android:c55ca4a8c8b5054796cba1",
+        "android_client_info": {
+          "package_name": "com.example.testelistadetarefas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "94878193652-se6ic6ueh5v7dn11hlfmqspr8laf8mm0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.testelistadetarefas",
+            "certificate_hash": "1a2a8e884656d315fc0fb7c0dbcb06da26cc7638"
+          }
+        },
+        {
+          "client_id": "94878193652-6b8vm13hv88esqrekn65927lp96ltuin.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVw2TbLGcFTKKFSAXX9wc5GTXQx_dd4pw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "94878193652-6b8vm13hv88esqrekn65927lp96ltuin.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

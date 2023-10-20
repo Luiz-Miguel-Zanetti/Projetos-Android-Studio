@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:state_checked="true">
+    <layer-list>
+        <item>
+            <shape android:shape="rectangle">
+                <stroke android:width="2dp" android:color="#ED9CFA" /> <!-- Largura e cor da borda -->
+            </shape>
+        </item>
+        <item android:drawable="@android:drawable/checkbox_on_background" /> <!-- Mantém o estado padrão do CheckBox marcado -->
+    </layer-list>
+</item>
+<item>
+    <layer-list>
+        <item>
+            <shape android:shape="rectangle">
+                <stroke android:width="2dp" android:color="@android:color/transparent" /> <!-- Largura e cor da borda -->
+            </shape>
+        </item>
+        <item android:drawable="@android:drawable/checkbox_off_background" /> <!-- Mantém o estado padrão do CheckBox desmarcado -->
+    </layer-list>
+</item>
+</selector>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/icon_remover_produto"
+        android:icon="@drawable/ic_baseline_delete_24"
+        android:title="Remover"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/icon_editar_produto"
+        android:icon="@drawable/ic_baseline_edit_24"
+        android:title="Editar"
+        app:showAsAction="always">
+    </item>
+</menu>

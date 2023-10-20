@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alfa_slab_one</item>
+        <item>@font/arbutus</item>
+        <item>@font/baloo_bhai</item>
+        <item>@font/baloo_tammudu</item>
+        <item>@font/baloo_thambi</item>
+        <item>@font/bevan</item>
+        <item>@font/black_han_sans</item>
+        <item>@font/bowlby_one</item>
+        <item>@font/candal</item>
+        <item>@font/days_one</item>
+        <item>@font/delius</item>
+        <item>@font/erica_one</item>
+        <item>@font/fredoka_one</item>
+        <item>@font/goblin_one</item>
+        <item>@font/gravitas_one</item>
+        <item>@font/holtwood_one_sc</item>
+        <item>@font/jockey_one</item>
+        <item>@font/kavoon</item>
+        <item>@font/lato_black</item>
+        <item>@font/lato_black_italic</item>
+        <item>@font/lexend_tera</item>
+        <item>@font/lexend_zetta</item>
+        <item>@font/libre_barcode_39_extended_text</item>
+        <item>@font/montserrat_alternates_thin</item>
+        <item>@font/montserrat_subrayada</item>
+        <item>@font/nunito_sans_light</item>
+        <item>@font/oi</item>
+        <item>@font/open_sans_light</item>
+        <item>@font/paytone_one</item>
+        <item>@font/poppins_thin</item>
+        <item>@font/raleway_black</item>
+        <item>@font/roboto_slab_thin</item>
+    </array>
+</resources>

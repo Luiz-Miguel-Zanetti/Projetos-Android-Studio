@@ -1,0 +1,39 @@
+<resources>
+
+    <string name="hint_input_email">Digite seu email:</string>
+    <string name="hint_input_password">Digite sua senha:</string>
+    <string name="title_button_enter">Entrar</string>
+    <string name="text_dont_have_account">Não tem uma conta?</string>
+    <string name="text_register_login">Cadastra-se</string>
+    <string name="hint_name_register">Digite seu nome :</string>
+    <string name="hint_email_register">Digite um email :</string>
+    <string name="hint_password_register">Digite uma senha :</string>
+    <string name="hint_confirm_password_register">Confirme sua senha :</string>
+    <string name="title_button_register_person">cadastrar</string>
+    <string name="hint_title_register_task">Título:</string>
+    <string name="hint_description_register_task">Descrição:</string>
+    <string name="hint_date_register_task">Data:</string>
+    <string name="hint_time_register_task">Hora:</string>
+    <string name="title_button_add_task">adicionar</string>
+    <string name="hint_title_update_task">Título:</string>
+    <string name="hint_description_update_task">Descrição:</string>
+    <string name="hint_date_update_task">Data:</string>
+    <string name="hint_time_update_task">Hora:</string>
+    <string name="title_button_update_task">atualizar</string>
+    <string name="title_alert_dialog_information">Informação:</string>
+    <string name="text_alert_dialog_information">Segure na tarefa se deseja edita-la ou remove-la!</string>
+    <string name="title_button_alert_dialog_information">Ok</string>
+    <string name="title_alert_dialog_options">Escolha uma opção:</string>
+    <string name="title_intro_slide_2">Bem vindo ao App</string>
+    <string name="title2_intro_slide_2">Lista de Tarefas</string>
+    <string name="text_view_1_intro_slide_2">- Crie Tarefas: Com esse aplicativo, você pode criar e personalizar tarefas de acordo com suas necessidades. Adicione detalhes, datas de vencimento e muito mais.</string>
+    <string name="text_view_2_intro_slide_2">- Lista de Atividades: Visualize todas as suas ativadades em uma lista organizada e nunca perca de vista o que precisa ser feito.</string>
+    <string name="text_view_3_intro_slide_2">- Sincronização em Tempo Real: Acesse suas tarefas em vários dispositivos e mantenha tudo sincronizado em tempo real.</string>
+    <string name="text_view_4_intro_slide_2">- Crie uma conta: Tenha sua própria conta ou faça login se ja tiver uma.</string>
+    <string name="tttle_button_intro_slide_2">Começar</string>
+    <string name="title_task_adapter">Título</string>
+    <string name="text_descrption_adapter">Descrição</string>
+    <string name="text_date_adapter">Data</string>
+    <string name="text_time_adapter">Hora</string>
+    <string name="app_name">Lista de Tarefas</string>
+</resources>

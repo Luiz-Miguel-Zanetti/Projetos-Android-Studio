@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="favorite">Favoritos</string>
+    <string name="app_name">MarvelAppStater</string>
+    <string name="tx_item_name">Nome</string>
+    <string name="tv_item_description">Descrição</string>
+    <string name="search_hint">Pesquisar</string>
+    <string name="comics">Historia</string>
+    <string name="marvel">Marvel</string>
+    <string name="tv_empty_text">Texto</string>
+    <string name="text_description">Descrição</string>
+</resources>

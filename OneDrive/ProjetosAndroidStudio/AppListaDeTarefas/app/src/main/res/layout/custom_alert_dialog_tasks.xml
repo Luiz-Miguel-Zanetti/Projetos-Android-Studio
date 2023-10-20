@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background_color"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo_thambi"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/title_alert_dialog_options"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <ListView
+        android:id="@+id/dialog_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/buttonCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/transparent"
+        android:fontFamily="@font/baloo_thambi"
+        android:text="Cancelar"
+        android:layout_gravity="end"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:cornerRadius="12dp"
+        app:strokeColor="@color/white"
+        app:strokeWidth="1dp" />
+
+</LinearLayout>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#131323">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        tools:context=".ui.activity.LoginActivity">
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputEmailLogin"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="24dp"
+            android:background="@android:color/transparent"
+            android:backgroundTint="#29B6F6"
+            android:textColorHint="@color/white"
+            app:boxCornerRadiusBottomEnd="12dp"
+            app:boxCornerRadiusBottomStart="12dp"
+            app:boxCornerRadiusTopEnd="12dp"
+            app:boxCornerRadiusTopStart="12dp"
+            app:boxStrokeColor="@color/white"
+            app:boxStrokeWidth="4dp"
+            app:counterTextColor="@color/white"
+            app:helperTextTextColor="@color/white"
+            app:hintTextColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+
+            app:placeholderTextColor="@color/white"
+            app:prefixTextColor="#54BBCE"
+            app:startIconTint="@color/white"
+            app:suffixTextColor="@color/white">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editEmailLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/ic_baseline_email_24"
+                android:fontFamily="@font/baloo_thambi"
+                android:hint="@string/hint_input_email"
+                android:inputType="textEmailAddress"
+                android:textColorHint="#54BBCE"
+                android:textCursorDrawable="@drawable/custom_cursor"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputPasswordLogin"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:backgroundTint="#54BBCE"
+            android:textColorHint="@color/white"
+            app:boxCornerRadiusBottomEnd="12dp"
+            app:boxCornerRadiusBottomStart="12dp"
+            app:boxCornerRadiusTopEnd="12dp"
+            app:boxCornerRadiusTopStart="12dp"
+            app:boxStrokeColor="@color/white"
+            app:boxStrokeWidth="4dp"
+            app:counterTextColor="@color/white"
+            app:endIconTint="#54BBCE"
+            app:helperTextTextColor="@color/white"
+            app:hintTextColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputEmailLogin"
+            app:placeholderTextColor="@color/white"
+            app:prefixTextColor="#54BBCE"
+            app:startIconTint="@color/white"
+            app:suffixTextColor="@color/white">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editPasswordLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/ic_baseline_lock_24"
+                android:fontFamily="@font/baloo_thambi"
+                android:hint="@string/hint_input_password"
+                android:inputType="textPassword"
+                android:textColorHint="#54BBCE"
+                android:textCursorDrawable="@drawable/custom_cursor"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/buttonEnter"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="290dp"
+            android:backgroundTint="@android:color/transparent"
+            android:fontFamily="@font/baloo_thambi"
+            android:text="@string/title_button_enter"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+
+            app:cornerRadius="12dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/textInputPasswordLogin"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textInputPasswordLogin"
+            app:layout_constraintTop_toBottomOf="@+id/progressBarLogin"
+            app:strokeColor="@color/white"
+            app:strokeWidth="4dp">
+
+        </Button>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#54BBCE"
+            android:fontFamily="@font/baloo_tammudu"
+            android:gravity="center"
+            android:text="@string/text_dont_have_account"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="@+id/buttonEnter"
+            app:layout_constraintHorizontal_bias="0.14"
+            app:layout_constraintStart_toStartOf="@+id/buttonEnter"
+            app:layout_constraintTop_toBottomOf="@+id/buttonEnter" />
+
+        <TextView
+            android:id="@+id/textButtonNewPerson"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="7dp"
+            android:backgroundTint="#54BBCE"
+            android:fontFamily="@font/baloo_tammudu"
+            android:gravity="center"
+            android:text="@string/text_register_login"
+            android:textColor="#54BBCE"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/buttonEnter"
+            app:layout_constraintHorizontal_bias="0.14"
+            app:layout_constraintStart_toEndOf="@+id/textView10"
+            app:layout_constraintTop_toBottomOf="@+id/buttonEnter" />
+
+        <CheckBox
+            android:id="@+id/checkBoxShowPasswordLogin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="52dp"
+            android:buttonTint="#54BBCE"
+            android:fontFamily="@font/luckiest_guy"
+            android:drawableStart="@drawable/ic_baseline_remove_red_eye_24"
+            android:textColor="@color/white"
+            android:textColorHighlight="@color/white"
+            android:textColorHint="@color/white"
+            android:textColorLink="@color/white"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textInputPasswordLogin"
+            app:layout_constraintTop_toBottomOf="@+id/textInputPasswordLogin" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="130dp"
+            android:layout_height="149dp"
+            android:layout_marginTop="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/prancheta" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo_bhai"
+            android:gravity="center"
+            android:text="L  I  S  T  A  "
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.44"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="D   E      T    A    R    E    F    A    S"
+            android:textColor="#54BBCE"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintHorizontal_bias="0.41"
+            app:layout_constraintStart_toStartOf="@+id/textView"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+        <ProgressBar
+            android:id="@+id/progressBarLogin"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBoxShowPasswordLogin" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

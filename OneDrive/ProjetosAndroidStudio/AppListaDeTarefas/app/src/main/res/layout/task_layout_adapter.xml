@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="#131323"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    android:layout_margin="12dp"
+    app:strokeWidth="7dp"
+    app:strokeColor="@color/white"
+
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textTitleTaskAdapter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_task_adapter"
+            android:fontFamily="@font/baloo_thambi"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:layout_gravity="start"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/textDescriptionAdapter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_descrption_adapter"
+            android:fontFamily="@font/baloo_thambi"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:layout_gravity="start"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/textDateAdapter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo_thambi"
+            android:text="@string/text_date_adapter"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:layout_gravity="start"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/textTimeAdapter"
+            android:layout_width="wrap_content"
+            android:fontFamily="@font/baloo_thambi"
+            android:layout_height="wrap_content"
+            android:text="@string/text_time_adapter"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:layout_gravity="start"/>
+
+    </LinearLayout>
+
+
+
+</com.google.android.material.card.MaterialCardView>

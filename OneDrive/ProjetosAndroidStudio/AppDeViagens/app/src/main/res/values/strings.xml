@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">App de Viagens</string>
+    <string name="mascara_nome_no_cartao">abcdefghijklmnopqrstuvwyxz1Ç\u0020</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background_color"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dialog_title_help"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo_thambi"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/title_alert_dialog_information"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/dialog_list_view_help"
+        android:layout_width="match_parent"
+        android:text="@string/text_alert_dialog_information"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/baloo_thambi"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/buttonOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/transparent"
+        android:fontFamily="@font/baloo_thambi"
+        android:text="@string/title_button_alert_dialog_information"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="end"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:cornerRadius="12dp"
+        app:strokeColor="@color/white"
+        app:strokeWidth="1dp" />
+
+</LinearLayout>
